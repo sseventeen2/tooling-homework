@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+workalendar
+scikit-learn
+xgboost
+streamlit
