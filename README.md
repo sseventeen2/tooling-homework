@@ -8,14 +8,15 @@ Make sure you have Docker installed on your system
 To run the project
 1. First, clone this repository to your local machine.
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+    git clone https://github.com/your-username/your-repo-name.git
+   
+    cd your-repo-name
 
-2. Build the Docker Image
+3. Build the Docker Image
 
 To build the Docker image for the Streamlit app, run the following command in the project directory:
 
-docker build -t streamlit .
+    docker build -t streamlit .
 
 This command will create a Docker image named streamlit using the Dockerfile provided in the project.
 
@@ -23,7 +24,7 @@ This command will create a Docker image named streamlit using the Dockerfile pro
 
 After the image is built, you can run the container using the following command:
 
-docker run -p 8502:8502 streamlit
+    docker run -p 8502:8502 streamlit
 
 This command will map port 8502 on your local machine to port 8502 inside the container. Make sure to use port 8502 (not the default Streamlit port 8501).
 Step 4: Access the Streamlit App
